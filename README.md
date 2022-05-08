@@ -1,5 +1,5 @@
-# TicTacToe_with_AI
-Command line version of Tic-Tac-Toe game.
+# TicTacToe_with_AI python
+Command line version of a Tic-Tac-Toe game.
 There is a starting menu in the game to initialize the game and choose the opponent.
 
 One may play either to another person (user - user game) or against the programm.

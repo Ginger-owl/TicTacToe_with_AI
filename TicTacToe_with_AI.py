@@ -292,9 +292,22 @@ def start_game(x_player, o_player):
 
     game(board, x_player, o_player)
 
+def info():
+    print("To start the game type: \"start X_player O_player\"")
+    print("\"X_player\" moves first and plays for 'X'")
+    print("\"O_player\" moves second and plays for 'O'")
+    print("You nedd to type instead of \"X_player\ and \"O_player\"")
+    print("\"user\" if you want to choose moves or")
+    print("\"easy\", \"medium\" or \"hard\" to pick a bot to play")
+    print("Example command: \"start user easy\"")
+    print("To exit game type \"exit\"\n")
+
 
 def menu_loop():
     """ Takes and deciphers commands and send notifications until command exit is provided """
+    info()
+
+    
     while ON:
         command = input("Input command: ").rstrip()
 
